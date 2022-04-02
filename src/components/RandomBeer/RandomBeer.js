@@ -1,15 +1,13 @@
 import { useEffect, useState } from "react";
-import "./Beer.css";
-import { useParams } from "react-router-dom";
+import "./RandomBeer.css";
 import { Header, Spinner } from "../../components";
 
-export function Beer({ setIsLoading, isLoading }) {
+export function RandomBeer({ setIsLoading, isLoading }) {
   const [beer, setBeer] = useState("");
-  const { beerId } = useParams();
 
   useEffect(() => {
     setIsLoading(true);
-    fetch(`https://ih-beers-api2.herokuapp.com/beers/${beerId}`)
+    fetch("https://ih-beers-api2.herokuapp.com/beers/random")
       .then((data) => data.json())
       .then((data) => {
         setBeer(data);

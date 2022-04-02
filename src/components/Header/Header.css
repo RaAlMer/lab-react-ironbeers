@@ -1,0 +1,16 @@
+.header {
+  background-color: rgb(48, 132, 228);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.header a:link {
+  text-decoration: none;
+}
+
+.header a:visited {
+  color: white;
+}
