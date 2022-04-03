@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import "./BeersList.css";
-import { Header, Spinner } from "../../components";
+import { Header, Spinner, SearchBar } from "../../components";
 
-export function BeersList({ beers, isLoading }) {
+export function BeersList({ beers, isLoading, search, setSearchTerm }) {
   return (
     <div>
       <Header />
+      <SearchBar search={search} setSearchTerm={setSearchTerm} />
       {isLoading ? (
         <Spinner />
       ) : (
