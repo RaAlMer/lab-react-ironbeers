@@ -1,0 +1,27 @@
+.beer {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 40px;
+  line-height: 18px;
+  img {
+    width: 60px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@mixin flex($display, $justify, $size, $margin) {
+  display: $display;
+  justify-content: $justify;
+  font-size: $size;
+  margin-bottom: $margin;
+}
+
+.tagline {
+  @include flex(flex, space-between, 16px, -20px);
+}
+
+.name {
+  @include flex(flex, space-between, 24px, -26px);
+}
