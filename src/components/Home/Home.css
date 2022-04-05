@@ -1,26 +1,32 @@
 .Home {
-    display: flex;
-    flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .Home img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .Home p {
-    font-size: 0.8rem;
-    color: rgb(116, 115, 115);
-    padding: 0 20px;
+  font-size: 0.8rem;
+  color: #747373;
+  padding: 0 20px;
 }
 
 .Home a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 .Home h3 {
-    padding: 0 20px;
-    margin-top: -4px;
-    margin-bottom: -8px;
+  padding: 0 20px;
+  margin-top: -4px;
+  margin-bottom: -8px;
 }
+/*# sourceMappingURL=Home.css.map */

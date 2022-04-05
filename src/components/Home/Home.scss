@@ -1,0 +1,23 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 100%;
+      height: auto;
+    }
+    p {
+      font-size: 0.8rem;
+      color: rgb(116, 115, 115);
+      padding: 0 20px;
+    }
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+    h3 {
+      padding: 0 20px;
+      margin-top: -4px;
+      margin-bottom: -8px;
+    }
+  }
+  

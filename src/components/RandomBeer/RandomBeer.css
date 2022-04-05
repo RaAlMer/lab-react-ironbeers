@@ -1,28 +1,41 @@
 .beer {
-    display: flex;
-    flex-direction: column;
-    margin: 80px 40px;
-    line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 80px 40px;
+  line-height: 18px;
 }
 
 .beer img {
-    width: 60px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+  width: 60px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tagline {
-    display: flex;
-    justify-content: space-between;
-    font-size: 16px;
-    margin-bottom: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: -20px;
 }
 
 .name {
-    display: flex;
-    justify-content: space-between;
-    font-size: 24px;
-    margin-bottom: -26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 24px;
+  margin-bottom: -26px;
 }
-  
+/*# sourceMappingURL=RandomBeer.css.map */

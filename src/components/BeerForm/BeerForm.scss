@@ -1,0 +1,24 @@
+$color: rgb(81, 158, 226);
+
+.form {
+  &-group {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  &-control {
+    border-radius: 20px;
+    border: 1px solid $color;
+    padding: 6px;
+  }
+  &-btn {
+    @extend .form-control;
+    background-color: $color;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 20px;
+    width: 10em;
+  }
+}

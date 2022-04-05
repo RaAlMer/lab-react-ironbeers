@@ -1,24 +1,27 @@
 .form-group {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px;
 }
 
-.form-control {
-    border-radius: 20px;
-    border: 1px solid rgb(81, 158, 226);
-    padding: 6px;
+.form-control, .form-btn {
+  border-radius: 20px;
+  border: 1px solid #519ee2;
+  padding: 6px;
 }
 
 .form-btn {
-    border-radius: 20px;
-    border: 1px solid rgb(81, 158, 226);
-    padding: 6px;
-    background-color: rgb(81, 158, 226);
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    cursor: pointer;
-    margin: 0 20px;
-    width: 10em;
+  background-color: #519ee2;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 20px;
+  width: 10em;
 }
+/*# sourceMappingURL=BeerForm.css.map */
